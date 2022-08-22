@@ -1,0 +1,16 @@
+<toolSet name="External Tools">
+  <tool name="Colcon build" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="colcon" />
+      <option name="PARAMETERS" value="build --cmake-args -G Ninja" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/dev/ros2" />
+    </exec>
+  </tool>
+  <tool name="Colcon build captain" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="colcon" />
+      <option name="PARAMETERS" value="build --cmake-args -G Ninja --packages-select captain" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/dev/ros2" />
+    </exec>
+  </tool>
+</toolSet>

@@ -23,7 +23,7 @@ install(
         DIRECTORY launch
         DESTINATION share/${PROJECT_NAME}
         )
-toto
+
 ament_target_dependencies(captain rclcpp std_msgs)
 
 install(TARGETS
